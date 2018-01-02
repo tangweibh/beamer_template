@@ -1,0 +1,37 @@
+\let\raggedright\relax
+\documentclass{beamer}
+\usepackage{xcolor}
+\usefonttheme[onlymath]{serif}
+%\linespread{1.1}
+%\setbeamercovered{transparent}
+%\beamerdefaultoverlayspecification{<+->}
+\begin{document}
+\title{This is a beamer template}
+\subtitle{Subtitle}
+\author{Wei Tang} 
+\date{\today} 
+
+\frame{\titlepage} 
+
+
+\frame{
+\frametitle{Outline}
+\tableofcontents
+}
+
+\section{Section 1}
+
+\frame{
+\frametitle{Frametitle}
+\begin{itemize}
+\item Item 1
+\item Item 2
+\item ...
+\end{itemize}
+}
+
+\section{Section 2}
+\frame{\frametitle{Outline}
+\tableofcontents[currentsection]}
+
+\end{document}
